@@ -1,8 +1,12 @@
 
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+/*** inizio header ***/
 .blue {
   background-color: #2C3E50;
   color: white;
-  /* position: fixed; */
 }
 
 .list-inline {
@@ -30,13 +34,19 @@
   text-decoration: none;
   color: #1ABC9C;
 }
-
+/*** fine header **/
+/*** inizio primo contenitore verde ***/
 .green {
   background-color: #1ABC9C;
   color: white;
   font-size: 20px;
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.star {
+  font-size: 50px;
 }
 
 h1 {
@@ -46,11 +56,29 @@ h1 {
 .col-lg-8 {
   text-align: center;
 }
-
+/*** fine primo contenitore verde ***/
+/*** inizio portfolio contenitore ***/
 .portfolio {
   text-align: center;
+  color: #2C3E50;
+}
+
+.portfolio-text {
+  font-size: 40px;
+}
+
+.margine {
+  padding: 10px;
+
 }
 
 .margine img {
-  padding: 10px;
+  width: 100%;
+}
+/*** fine portfolio contenitore ***/
+/*** inizio about secondo contenitore verde ***/
+.about {
+  background-color: #1ABC9C;
+  color: white;
+  text-align: center;
 }
