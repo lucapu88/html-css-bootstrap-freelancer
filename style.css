@@ -33,8 +33,24 @@
 
 .green {
   background-color: #1ABC9C;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 60px;
 }
 
 .col-lg-8 {
   text-align: center;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.margine img {
+  padding: 10px;
 }
