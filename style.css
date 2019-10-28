@@ -1,0 +1,40 @@
+
+.blue {
+  background-color: #2C3E50;
+  color: white;
+  /* position: fixed; */
+}
+
+.list-inline {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  float: right;
+}
+
+.link {
+  color: white;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.white {
+  color: white;
+}
+
+.white:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #1ABC9C;
+}
+
+.green {
+  background-color: #1ABC9C;
+}
+
+.col-lg-8 {
+  text-align: center;
+}
