@@ -10,8 +10,8 @@
 }
 
 .list-inline {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   float: right;
 }
 
@@ -101,3 +101,32 @@ button:hover {
 }
 /*** fine about secondo contenitore verde ***/
 /*** inizio sezione contact me ***/
+input {
+  width: 100%;
+  border: none;
+  font-size: 20px;
+}
+
+.send {
+  background-color: #1ABC9C;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.send:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #159A80;
+}
+
+.input:last-child {
+  padding-bottom: 50px;
+}
+/*** fine sezione contact me ***/
+/*** inizio footer ***/
+.footer {
+  background-color: #2C3E50;
+}
