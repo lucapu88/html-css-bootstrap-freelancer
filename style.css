@@ -12,7 +12,6 @@
 .list-inline {
   padding-top: 20px;
   padding-bottom: 20px;
-  float: right;
 }
 
 .link {
@@ -129,4 +128,20 @@ input {
 /*** inizio footer ***/
 .footer {
   background-color: #2C3E50;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.start {
+  color: #1ABC9C;
+}
+
+.icon {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
 }
