@@ -4,7 +4,7 @@
   margin-left: 0;
 }
 /*** inizio header ***/
-.blue {
+.navbar {
   background-color: #2C3E50;
   color: white;
 }
@@ -35,13 +35,12 @@
 }
 /*** fine header **/
 /*** inizio primo contenitore verde ***/
-.green {
+.container-green {
   background-color: #1ABC9C;
   color: white;
   font-size: 20px;
   padding-bottom: 50px;
   padding-top: 200px;
-  text-align: center;
 }
 
 .star {
@@ -52,12 +51,9 @@ h1 {
   font-size: 60px;
 }
 
-.col-lg-8 {
-  text-align: center;
-}
 /*** fine primo contenitore verde ***/
 /*** inizio portfolio contenitore ***/
-.portfolio {
+.container-portfolio {
   text-align: center;
   color: #2C3E50;
   padding-bottom: 100px;
@@ -78,7 +74,7 @@ h1 {
 }
 /*** fine portfolio contenitore ***/
 /*** inizio about secondo contenitore verde ***/
-.about {
+.container-about {
   background-color: #1ABC9C;
   color: white;
   text-align: center;
