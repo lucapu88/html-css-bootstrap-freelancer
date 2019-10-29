@@ -9,6 +9,9 @@
   color: white;
 }
 
+h2:hover {
+  cursor: pointer;
+}
 .list-inline {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -77,15 +80,19 @@ h1 {
 .container-about {
   background-color: #1ABC9C;
   color: white;
-  text-align: center;
   padding-bottom: 100px;
   padding-top: 100px;
 }
 
+.textLeft {
+  text-align: left;
+  line-height: 1.6;
+  font-size: 20px;
+}
 button {
-  margin-top: 100px;
+  margin-top: 50px;
   background-color: transparent;
-  padding: 10px 30px;
+  padding: 20px 40px;
   border-radius: 5px;
   border-color: white;
 }
@@ -117,9 +124,6 @@ input {
   background-color: #159A80;
 }
 
-.input:last-child {
-  padding-bottom: 50px;
-}
 /*** fine sezione contact me ***/
 /*** inizio footer ***/
 .footer {
